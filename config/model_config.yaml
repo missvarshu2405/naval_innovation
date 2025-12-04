@@ -1,0 +1,14 @@
+model_path: "models/yolov8n.pt"
+confidence_threshold: 0.35
+iou_threshold: 0.45
+
+display:
+  draw_labels: true
+  draw_boxes: true
+  font_scale: 0.7
+  font_thickness: 2
+
+tracking:
+  max_age: 30
+  min_hits: 3
+  iou_threshold: 0.3
