@@ -1,0 +1,20 @@
+mvps/
+│
+├── config/
+│   ├── settings.py
+│   └── model_config.yaml
+│
+├── core/
+│   ├── detector.py
+│   ├── tracker.py
+│   ├── video_stream.py
+│   └── utils.py
+│
+├── data/
+│   └── (datasets go here)
+│
+├── outputs/
+│   └── (logs, inference videos, results)
+│
+├── main.py
+└── requirements.txt
